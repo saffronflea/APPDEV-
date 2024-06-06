@@ -45,7 +45,7 @@
             </div>
             <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div class="flex items-center">
-                <img class=" h-[80px] w-[80px]" src="\images\goldy-removebg-preview.png" alt="Your Company">
+                <img class=" h-[80px] w-[80px]" src="images\goldy-removebg-preview.png" alt="Your Company">
               </div>
               <div class="sm:ml-6">
                 <div class="flex space-x-4 lg:py-7 lg:ml-[700px] sm:ml-[400px]">
@@ -96,12 +96,12 @@
             </div>
            
            
-            <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+            <button aria-controls="carousel" role="left-button" type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
                 <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
                     <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
                 </span>
             </button>
-            <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+            <button aria-controls="carousel" role="right-button" type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
                 <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 0 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
                     <svg class="w-5 h-5  sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </span>
@@ -219,7 +219,7 @@
          class=" w-[100%] h-[50%] rounded-md mt-[px] my-3 border-solid border-2 border-black" alt="">
  
          <div class="mt-[50px]">
-          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-black bg-red-700">learn more</a>
+          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-white bg-green-700">learn more</a>
         </div>
       </div>
       <div class="section-container flex sm:flex-col space-y-4 place-content-center border-4 border-solid border-black rounded-md bg-transparent h-[400px] w-[300px] mb-5 mx-2">
@@ -230,7 +230,7 @@
          class=" w-[100%] h-[50%] rounded-md mt-[10px] my-3 border-solid border-2 border-black" alt="">
  
          <div class="mt-[50px]">
-          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-black bg-red-700">learn more</a>
+          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-white bg-green-700">learn more</a>
         </div>
       </div>      
       <div class="section-container flex sm:flex-col space-y-4 place-content-center border-4 border-solid border-black rounded-md bg-transparent h-[400px] w-[300px] mb-5 mx-2">
@@ -241,50 +241,30 @@
          class=" w-[100%] h-[50%] rounded-md mt-[px] my-3 border-solid border-2 border-black" alt="">
  
          <div class="mt-[50px]">
-          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-black bg-red-700">learn more</a>
+          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-white bg-green-700">learn more</a>
         </div>
       </div>
     </section>
     <!--freaking map-->
     <section>
       <div >
-        <iframe class="section section-content rounded-md border-2 my-5 border-solid border-black" 
+        <iframe aria-label="map" class="section section-content rounded-md border-2 my-5 border-solid border-black" 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123413.50613393787!2d120.67760731039299!3d14.843651820262625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339653d34802b115%3A0x16e57d650cc1f4f!2sOffice%20of%20the%20City%20Agriculture!5e0!3m2!1sen!2sph!4v1717677508979!5m2!1sen!2sph"
          width="900" height="500" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" pad>
         </iframe>
       </div>
           </section>
           <!--footerr-->
-    <footer class="bg-black text-white">
-      <br>
-      <br>
-      <br>
-
+     <footer class="bg-black text-white">
       <div class="section-container">
-        <div class="flex flex-col items-center justify-between md:flex-row">
+        <div class="flex flex-col place-content-center items-center justify-between md:flex-row">
           <!-- Image -->
-          <img src="images\goldy-removebg-preview.png" alt="" class="h-12 w-12" />
+          <img src="images\goldy-removebg-preview.png" alt="" class="scale-50" />
           <!-- Container for Menus & Social -->
-          <div class="flex flex-row items-center justify-between w-32 py-1 cursor-pointer">
-            <a href="#"
-              ><img
-                src="images/icon-facebook.svg"
-                alt=""
-                class="duration-200 ficon"
-            /></a>
-            <a href="#"
-              ><img
-                src="images/icon-twitter.svg"
-                alt=""
-                class="duration-200 ficon"
-            /></a>
-            <a href="#"
-              ><img
-                src="images/icon-instagram.svg"
-                alt=""
-                class="duration-200 ficon"
-            /></a>
-          </div>
+          <div
+            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
+          >
+            <!-- Menus -->
             <div
               class="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
             >
@@ -298,7 +278,7 @@
               <!-- Menu 2 -->
               <div class="flex flex-col space-y-4 text-center md:text-left">
                 <div>
-                  <a href="#" class="hover:text-red-700">Privacy Policy</a>
+                  <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
                 </div>
                 <div>
                   <a href="#" class="hover:text-red-700">Press Kit</a>
@@ -313,12 +293,29 @@
             </div>
 
             <!-- Social Icons -->
-            
+            <div aria-label="button1" class="flex justify-between w-32 py-1">
+              <a href="#"
+                ><img
+                  src="images/icon-facebook.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+              <a aria-label="button1" href="#"
+                ><img
+                  src="images/icon-twitter.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+              <a aria-label="button1" href="#"
+                ><img
+                  src="images/icon-instagram.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
     </footer>
 
     <!--Rice cultivation is influenced by weather, soil quality, water, pests, and how the farmer handles the crop. Other factors also affect rice production, such as climate change, government regulations, and farmers' finances. Growing rice depends on many factors, including weather, soil type, and the amount of water available. Rice grows best in warm temperatures with adequate rainfall, but too much rain or extreme weather can damage the crop. For rice to grow well, soil must be of good quality and have the right pH levels. Having enough water through rain or irrigation is also very important for rice cultivation. Pests and diseases, such as rice weevils and stem pests, can harm rice plants. Weeds can also rob rice of nutrients. How farmers manage their crops, such as planting at the right time and using good seeds, can make a big difference in how much rice they grow. It is important that farmers have access to fertilizers, pesticides, herbicides, etc. to keep the crop healthy and productive. Climate change, soil erosion, and water pollution can harm rice cultivation. Factors such as education, technology, government support, and market conditions also affect the success of rice cultivation. Organizations like IRRI and PhilRice are working on improving rice varieties and farming practices to produce better rice, all of which work together to determine the quality of rice cultivation, impacting food security and farmers’ livelihoods.-->
